@@ -7,6 +7,8 @@ import numpy as np
 import tempfile
 import time
 from PIL import Image
+import os
+os.environ['SDL_AUDIODRIVER'] = 'dummy'
 
 mp_drawing = mp.solutions.drawing_utils
 mp_face_mesh = mp.solutions.face_mesh
