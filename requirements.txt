@@ -1,4 +1,4 @@
-opencv_python_headless==4.5.2.54
+opencv_python_headless
 streamlit==0.82.0
 mediapipe
 numpy
